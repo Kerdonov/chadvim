@@ -25,4 +25,7 @@ require('pckr').add{
   { "nvim-telescope/telescope.nvim",
     requires = { {"nvim-lua/plenary.nvim"} },
   },
+  "williamboman/mason.nvim",
+  "williamboman/mason-lspconfig.nvim",
+  "neovim/nvim-lspconfig",
 }
